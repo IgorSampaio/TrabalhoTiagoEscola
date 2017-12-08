@@ -8,3 +8,13 @@ C:\Users\Igor\Desktop\ProjetoEscola\Controller\bin\Debug\DAO.pdb
 C:\Users\Igor\Desktop\ProjetoEscola\Controller\bin\Debug\Model.pdb
 C:\Users\Igor\Desktop\ProjetoEscola\Controller\obj\Debug\Controller.dll
 C:\Users\Igor\Desktop\ProjetoEscola\Controller\obj\Debug\Controller.pdb
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\bin\Debug\Controller.dll
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\bin\Debug\Controller.pdb
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\bin\Debug\DAO.dll
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\bin\Debug\Model.dll
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\bin\Debug\DAO.pdb
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\bin\Debug\Model.pdb
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\obj\Debug\Controller.dll
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Controller\obj\Debug\Controller.pdb

@@ -6,3 +6,11 @@ C:\Users\Igor\Desktop\ProjetoEscola\DAO\obj\Debug\DAO.csprojResolveAssemblyRefer
 C:\Users\Igor\Desktop\ProjetoEscola\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 C:\Users\Igor\Desktop\ProjetoEscola\DAO\obj\Debug\DAO.dll
 C:\Users\Igor\Desktop\ProjetoEscola\DAO\obj\Debug\DAO.pdb
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\bin\Debug\DAO.dll
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\bin\Debug\DAO.pdb
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\bin\Debug\Model.dll
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\bin\Debug\Model.pdb
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.dll
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.pdb

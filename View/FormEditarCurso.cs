@@ -19,8 +19,33 @@ namespace View
 
         public FormEditarCurso(MCurso item)
         {
-            Item = item;
             InitializeComponent();
+
+            MTipoCurso aux = new MTipoCurso();
+            List<MTipoCurso> lista = CTipoCurso.Pesquisar(aux);
+
+            foreach (MTipoCurso caso in (List<MTipoCurso>)lista)
+            {
+                cbxTipoCurso.Items.Add(caso.Nome);
+            }
+
+            this.Item = item;
+            this.txtNome.Text = item.Nome;
+            this.txtCH.Text = item.CHMaxima.ToString();
+            for (int i = 0; i < cbxTipoCurso.Items.Count; i++)
+            {
+                string teste = cbxTipoCurso.GetItemText(cbxTipoCurso.Items[i]);
+                if (teste == item.FKTipoCurso.Nome)
+                {
+                    MessageBox.Show("Entrei no if.");
+                    cbxTipoCurso.SelectedIndex = i;
+                    break;
+                }
+                else
+                    MessageBox.Show("Entrei no else.");
+            }
+            //this.cbxTipoCurso.SelectedIndex = cbxTipoCurso.Items.IndexOf(item.FKTipoCurso);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -57,16 +82,21 @@ namespace View
 
         }
 
-        private void FormEditarCurso_Load(object sender, EventArgs e)
-        {
-            MTipoCurso item = new MTipoCurso();
-            List<MTipoCurso> lista = CTipoCurso.Pesquisar(item);
+        //private void FormEditarCurso_Load(object sender, EventArgs e)
+        //{
+        //    MTipoCurso item = new MTipoCurso();
+        //    List<MTipoCurso> lista = CTipoCurso.Pesquisar(item);
 
-            foreach (MTipoCurso caso in (List<MTipoCurso>)lista)
-            {
-                cbxTipoCurso.Items.Add(caso.Nome);
-            }
-            
+        //    foreach (MTipoCurso caso in (List<MTipoCurso>)lista)
+        //    {
+        //        cbxTipoCurso.Items.Add(caso.Nome);
+        //    }
+
+        //}
+
+        private void cbxTipoCurso_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
