@@ -1,0 +1,8 @@
+C:\Users\Igor\Desktop\ProjetoEscola\DAO\bin\Debug\DAO.dll
+C:\Users\Igor\Desktop\ProjetoEscola\DAO\bin\Debug\DAO.pdb
+C:\Users\Igor\Desktop\ProjetoEscola\DAO\bin\Debug\Model.dll
+C:\Users\Igor\Desktop\ProjetoEscola\DAO\bin\Debug\Model.pdb
+C:\Users\Igor\Desktop\ProjetoEscola\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Desktop\ProjetoEscola\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Igor\Desktop\ProjetoEscola\DAO\obj\Debug\DAO.dll
+C:\Users\Igor\Desktop\ProjetoEscola\DAO\obj\Debug\DAO.pdb
