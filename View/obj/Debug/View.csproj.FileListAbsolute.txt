@@ -42,3 +42,4 @@ C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.cspro
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.csproj.CoreCompileInputs.cache
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.exe
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.pdb
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.FormCadastroAluno.resources

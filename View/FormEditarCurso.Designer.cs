@@ -94,7 +94,7 @@
             this.cbxTipoCurso.Name = "cbxTipoCurso";
             this.cbxTipoCurso.Size = new System.Drawing.Size(160, 24);
             this.cbxTipoCurso.TabIndex = 5;
-            this.cbxTipoCurso.SelectedIndexChanged += new System.EventHandler(this.cbxTipoCurso_SelectedIndexChanged);
+            //this.cbxTipoCurso.SelectedIndexChanged += new System.EventHandler(this.cbxTipoCurso_SelectedIndexChanged);
             // 
             // button1
             // 

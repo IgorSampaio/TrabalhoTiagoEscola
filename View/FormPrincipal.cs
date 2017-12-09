@@ -55,5 +55,11 @@ namespace View
             FormPesquisaCurso p = new View.FormPesquisaCurso();
             p.ShowDialog();
         }
+
+        private void inserirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormCadastroAluno f = new FormCadastroAluno();
+            f.ShowDialog();
+        }
     }
 }

@@ -58,9 +58,9 @@ namespace View
                         txtNome.Text = nomeantigo;
                         btnPesquisar_Click(null, null);
                     }
-                    catch
+                    catch(Exception ex)
                     {
-                        MessageBox.Show(Erros.ErroPadrao, "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(Erros.ErroPadrao + "\nTalvez você esteja excluindo um Tipo de Curso que já está vinculado a algum Curso?" + "\n", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
