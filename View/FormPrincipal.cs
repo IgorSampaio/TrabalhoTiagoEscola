@@ -56,6 +56,7 @@ namespace View
             p.ShowDialog();
         }
 
+<<<<<<< HEAD
         private void perquisarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormPesquisaTipoTerminoCurso f = new View.FormPesquisaTipoTerminoCurso();
@@ -65,6 +66,11 @@ namespace View
         private void inserirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormCadastroTipoTerminoCurso f = new View.FormCadastroTipoTerminoCurso();
+=======
+        private void inserirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormCadastroAluno f = new FormCadastroAluno();
+>>>>>>> eff8a2aefde85c9b90365c4aef525e4152a5af4f
             f.ShowDialog();
         }
     }

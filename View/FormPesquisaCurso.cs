@@ -72,11 +72,16 @@ namespace View
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            if (dgvResultado.SelectedRows.Count != 0)
+            //MessageBox.Show("Entrei no tsb1Click com Count = " + dgvResultado.SelectedRows.Count.ToString());
+            if (dgvResultado.SelectedRows.Count > 0)
             {
+                //MessageBox.Show("Entrei no if do tsb1Click");
                 MCurso item = new MCurso();
 
                 item.Id = (int)dgvResultado.SelectedRows[0].Cells["ID"].Value;
+                //MessageBox.Show("O ID selecionado é " + item.Id.ToString());
+                item = CCurso.Obter(item);
+                //MessageBox.Show("O nome do curso é " + item.Nome + " e seu tipo é " + item.FKTipoCurso.Nome);
 
                 FormEditarCurso feditar = new FormEditarCurso(item);
                 feditar.ShowDialog();

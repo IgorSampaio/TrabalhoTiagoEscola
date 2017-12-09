@@ -109,7 +109,7 @@ namespace DAO
             SqlCommand comando = new SqlCommand();
             comando.Connection = Conexao.conexao;
 
-            comando.CommandText = "SELECT c.ID ID, c.NOME Nome, c.CHMaxima CHMaxima, c.FkTipoCursoID FkTipoCursoID, t.NOME NomeTC FROM TBCurso c inner join TBTipoCurso t on FKTipoCursoID = t.ID WHERE ID = @ID";
+            comando.CommandText = "SELECT c.ID ID, c.NOME Nome, c.CHMaxima CHMaxima, c.FkTipoCursoID FkTipoCursoID, t.NOME NomeTC FROM TBCurso c inner join TBTipoCurso t on FKTipoCursoID = t.ID WHERE c.ID = @ID";
 
             SqlParameter param = new SqlParameter("@ID", SqlDbType.Int);
             param.Value = item.Id;

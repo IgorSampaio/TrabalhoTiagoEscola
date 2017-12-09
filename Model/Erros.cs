@@ -13,5 +13,8 @@ namespace Model
         public static string TipoCursoNomeJaExiste = "Já existe um tipo de curso cadastrado com o nome informado.";
         public static string CursoNome = "O nome do curso informado é inválido.";
         public static string CursoNomeJaExiste = "Já existe um curso cadastrado com o nome informado.";
+        public static string AlunoNome = "O nome do aluno informado é inválido.";
+        public static string AlunoCPF = "O CPF do aluno informado é inválido.";
+        public static string AlunoCPFExiste = "O CPF do aluno informado já existe.";
     }
 }
