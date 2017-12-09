@@ -63,6 +63,12 @@
     <Compile Include="FormCadastroTipoCurso.Designer.cs">
       <DependentUpon>FormCadastroTipoCurso.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCadastroTipoTerminoCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroTipoTerminoCurso.Designer.cs">
+      <DependentUpon>FormCadastroTipoTerminoCurso.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormEditarCurso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,11 +81,23 @@
     <Compile Include="FormEditarTipoCurso.Designer.cs">
       <DependentUpon>FormEditarTipoCurso.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEditarTipoTerminoCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditarTipoTerminoCurso.Designer.cs">
+      <DependentUpon>FormEditarTipoTerminoCurso.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPesquisaCurso.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPesquisaCurso.Designer.cs">
       <DependentUpon>FormPesquisaCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPesquisaTipoTerminoCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPesquisaTipoTerminoCurso.Designer.cs">
+      <DependentUpon>FormPesquisaTipoTerminoCurso.cs</DependentUpon>
     </Compile>
     <Compile Include="FormPesquisaTipoCurso.cs">
       <SubType>Form</SubType>
@@ -101,14 +119,23 @@
     <EmbeddedResource Include="FormCadastroTipoCurso.resx">
       <DependentUpon>FormCadastroTipoCurso.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroTipoTerminoCurso.resx">
+      <DependentUpon>FormCadastroTipoTerminoCurso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormEditarCurso.resx">
       <DependentUpon>FormEditarCurso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormEditarTipoCurso.resx">
       <DependentUpon>FormEditarTipoCurso.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEditarTipoTerminoCurso.resx">
+      <DependentUpon>FormEditarTipoTerminoCurso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPesquisaCurso.resx">
       <DependentUpon>FormPesquisaCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPesquisaTipoTerminoCurso.resx">
+      <DependentUpon>FormPesquisaTipoTerminoCurso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPesquisaTipoCurso.resx">
       <DependentUpon>FormPesquisaTipoCurso.cs</DependentUpon>
@@ -124,6 +151,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\DataSources\Model.Erros.datasource" />
     <None Include="Properties\DataSources\Model.ExcecaoPersonalizada.datasource" />
@@ -153,6 +181,12 @@
       <Project>{47008981-5edc-4d06-b663-d4c23318f4ce}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-button %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

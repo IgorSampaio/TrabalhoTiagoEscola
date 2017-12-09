@@ -43,8 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexao.cs" />
+    <Compile Include="DAluno.cs" />
+    <Compile Include="DAlunoCurso.cs" />
     <Compile Include="DCurso.cs" />
     <Compile Include="DTipoCurso.cs" />
+    <Compile Include="DTipoTerminoCurso.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

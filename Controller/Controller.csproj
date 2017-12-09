@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAluno.cs" />
+    <Compile Include="CAlunoCurso.cs" />
     <Compile Include="CCurso.cs" />
     <Compile Include="CTipoCurso.cs" />
+    <Compile Include="CTipoTerminoCurso.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
