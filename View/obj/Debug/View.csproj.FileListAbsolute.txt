@@ -43,3 +43,6 @@ C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.cspro
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.exe
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.pdb
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.FormCadastroAluno.resources
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.FormCadastroTipoTerminoCurso.resources
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.FormEditarTipoTerminoCurso.resources
+C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\View\obj\Debug\View.FormPesquisaTipoTerminoCurso.resources

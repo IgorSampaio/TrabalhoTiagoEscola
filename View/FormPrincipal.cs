@@ -17,60 +17,55 @@ namespace View
             InitializeComponent();
         }
 
-        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void inserçãoToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            FormCadastroTipoCurso f = new View.FormCadastroTipoCurso();
-            f.ShowDialog();
-        }
-
-        private void pesquisaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormPesquisaTipoCurso p = new View.FormPesquisaTipoCurso();
-            p.ShowDialog();
-        }
-
-        private void FormPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void arquivoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void inserçãoToolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-            FormCadastroCurso f = new View.FormCadastroCurso();
-            f.ShowDialog();
-        }
-
-        private void pesquisaToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            FormPesquisaCurso p = new View.FormPesquisaCurso();
-            p.ShowDialog();
-        }
-
-<<<<<<< HEAD
-        private void perquisarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormPesquisaTipoTerminoCurso f = new View.FormPesquisaTipoTerminoCurso();
-            f.ShowDialog();
-        }
-
-        private void inserirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormCadastroTipoTerminoCurso f = new View.FormCadastroTipoTerminoCurso();
-=======
         private void inserirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormCadastroAluno f = new FormCadastroAluno();
->>>>>>> eff8a2aefde85c9b90365c4aef525e4152a5af4f
+            f.ShowDialog();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pesquisarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void inserirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormCadastroCurso f = new FormCadastroCurso();
+            f.ShowDialog();
+        }
+
+        private void pesquisarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormPesquisaCurso f = new FormPesquisaCurso();
+            f.ShowDialog();
+        }
+
+        private void inserirToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FormCadastroTipoCurso f = new FormCadastroTipoCurso();
+            f.ShowDialog();
+        }
+
+        private void pesquisarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FormPesquisaTipoCurso f = new FormPesquisaTipoCurso();
+            f.ShowDialog();
+        }
+
+        private void inserirToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            FormCadastroTipoTerminoCurso f = new FormCadastroTipoTerminoCurso();
+            f.ShowDialog();
+        }
+
+        private void pesquisarToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            FormPesquisaTipoTerminoCurso f = new FormPesquisaTipoTerminoCurso();
             f.ShowDialog();
         }
     }

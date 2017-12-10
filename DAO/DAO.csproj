@@ -44,10 +44,7 @@
   <ItemGroup>
     <Compile Include="Conexao.cs" />
     <Compile Include="DAluno.cs" />
-<<<<<<< HEAD
     <Compile Include="DAlunoCurso.cs" />
-=======
->>>>>>> eff8a2aefde85c9b90365c4aef525e4152a5af4f
     <Compile Include="DCurso.cs" />
     <Compile Include="DTipoCurso.cs" />
     <Compile Include="DTipoTerminoCurso.cs" />

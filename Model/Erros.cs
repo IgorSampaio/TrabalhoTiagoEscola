@@ -16,5 +16,9 @@ namespace Model
         public static string AlunoNome = "O nome do aluno informado é inválido.";
         public static string AlunoCPF = "O CPF do aluno informado é inválido.";
         public static string AlunoCPFExiste = "O CPF do aluno informado já existe.";
+        public static string ProntuarioExiste = "O prontuário informado já existe.";
+        public static string ProntuarioInvalido = "O número de prontuário informado é inválido.";
+        public static string TipoTerminoCursoExiste = "O tipo de término de curso informado já existe.";
+        public static string TipoTerminoCursoInvalido = "O tipo de término de curso informado é inválido.";
     }
 }
