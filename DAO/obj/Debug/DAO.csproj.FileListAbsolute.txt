@@ -14,3 +14,11 @@ C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.csprojR
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.dll
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.pdb
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\DAO\bin\Debug\DAO.dll
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\DAO\bin\Debug\DAO.pdb
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\DAO\bin\Debug\Model.dll
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\DAO\bin\Debug\Model.pdb
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.dll
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\DAO\obj\Debug\DAO.pdb

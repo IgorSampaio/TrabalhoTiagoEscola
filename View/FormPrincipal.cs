@@ -68,5 +68,16 @@ namespace View
             FormPesquisaTipoTerminoCurso f = new FormPesquisaTipoTerminoCurso();
             f.ShowDialog();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void inserçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormCadastroAlunoCurso f = new FormCadastroAlunoCurso();
+            f.ShowDialog();
+        }
     }
 }

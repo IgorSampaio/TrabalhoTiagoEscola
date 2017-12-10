@@ -10,3 +10,9 @@ C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Model\obj\Debug\Model.csp
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Model\obj\Debug\Model.dll
 C:\Users\Thales\Documents\GitRepos\TrabalhoTiagoEscola\Model\obj\Debug\Model.pdb
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\Model\bin\Debug\Model.dll
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\Model\bin\Debug\Model.pdb
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\Model\obj\Debug\Model.dll
+C:\Users\Igor\Desktop\ProjetoEscola\TrabalhoTiagoEscola\Model\obj\Debug\Model.pdb
