@@ -20,5 +20,6 @@ namespace Model
         public static string ProntuarioInvalido = "O número de prontuário informado é inválido.";
         public static string TipoTerminoCursoExiste = "O tipo de término de curso informado já existe.";
         public static string TipoTerminoCursoInvalido = "O tipo de término de curso informado é inválido.";
+        public static string CargaHoraria = "A carga horária informada é inválida.";
     }
 }

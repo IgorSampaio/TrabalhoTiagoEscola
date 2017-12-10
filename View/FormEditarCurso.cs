@@ -37,12 +37,10 @@ namespace View
                 string teste = cbxTipoCurso.GetItemText(cbxTipoCurso.Items[i]);
                 if (teste == item.FKTipoCurso.Nome)
                 {
-                    //MessageBox.Show("Entrei no if.");
                     cbxTipoCurso.SelectedIndex = i;
                     break;
                 }
             }
-            //this.cbxTipoCurso.SelectedIndex = cbxTipoCurso.Items.IndexOf(item.FKTipoCurso);
             
         }
 
@@ -78,23 +76,6 @@ namespace View
                 }
             }
 
-        }
-
-        //private void FormEditarCurso_Load(object sender, EventArgs e)
-        //{
-        //    MTipoCurso item = new MTipoCurso();
-        //    List<MTipoCurso> lista = CTipoCurso.Pesquisar(item);
-
-        //    foreach (MTipoCurso caso in (List<MTipoCurso>)lista)
-        //    {
-        //        cbxTipoCurso.Items.Add(caso.Nome);
-        //    }
-
-        //}
-
-        //private void cbxTipoCurso_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-
-        //}
+        }       
     }
 }
