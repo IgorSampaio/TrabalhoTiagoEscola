@@ -94,5 +94,10 @@ namespace View
                 }
             }
         }
+
+        private void dgvResultado_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

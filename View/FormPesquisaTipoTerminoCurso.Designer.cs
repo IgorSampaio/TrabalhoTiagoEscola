@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
@@ -35,8 +36,12 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.dgvResultado = new System.Windows.Forms.DataGridView();
+            this.mTipoTerminoCursoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mTipoTerminoCursoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -100,11 +105,36 @@
             // 
             // dgvResultado
             // 
+            this.dgvResultado.AutoGenerateColumns = false;
             this.dgvResultado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvResultado.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.nomeDataGridViewTextBoxColumn});
+            this.dgvResultado.DataSource = this.mTipoTerminoCursoBindingSource;
             this.dgvResultado.Location = new System.Drawing.Point(12, 69);
             this.dgvResultado.Name = "dgvResultado";
             this.dgvResultado.Size = new System.Drawing.Size(476, 262);
             this.dgvResultado.TabIndex = 4;
+            this.dgvResultado.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvResultado_CellContentClick);
+            // 
+            // mTipoTerminoCursoBindingSource
+            // 
+            this.mTipoTerminoCursoBindingSource.DataSource = typeof(Model.MTipoTerminoCurso);
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.Visible = false;
+            this.idDataGridViewTextBoxColumn.Width = 450;
+            // 
+            // nomeDataGridViewTextBoxColumn
+            // 
+            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "Nome";
+            this.nomeDataGridViewTextBoxColumn.HeaderText = "Nome";
+            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
+            this.nomeDataGridViewTextBoxColumn.Width = 400;
             // 
             // FormPesquisaTipoTerminoCurso
             // 
@@ -122,6 +152,7 @@
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mTipoTerminoCursoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,5 +167,8 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.DataGridView dgvResultado;
+        private System.Windows.Forms.BindingSource mTipoTerminoCursoBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
     }
 }
