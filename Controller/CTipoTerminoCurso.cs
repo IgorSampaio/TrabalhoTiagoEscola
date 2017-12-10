@@ -14,7 +14,7 @@ namespace Controller
         {
             if (item.Nome.Trim() == "" || item.Nome.Length > 100)
             {
-                throw new ExcecaoPersonalizada(Erros.TipoCursoNome);
+                throw new ExcecaoPersonalizada(Erros.TipoTerminoCursoInvalido);
             }
 
             item.Nome = item.Nome.Trim();
@@ -22,7 +22,7 @@ namespace Controller
             List<MTipoTerminoCurso> lista = Pesquisar(item);
 
             if (lista != null && lista.Count > 0)
-                throw new ExcecaoPersonalizada(Erros.TipoCursoNomeJaExiste);
+                throw new ExcecaoPersonalizada(Erros.TipoTerminoCursoExiste);
 
             DTipoTerminoCurso.Inserir(item);
         }
@@ -46,7 +46,7 @@ namespace Controller
         {
             if (item.Nome.Trim() == "" || item.Nome.Length > 100)
             {
-                throw new ExcecaoPersonalizada(Erros.TipoCursoNome);
+                throw new ExcecaoPersonalizada(Erros.TipoTerminoCursoInvalido);
             }
 
             item.Nome = item.Nome.Trim();
@@ -54,7 +54,7 @@ namespace Controller
             List<MTipoTerminoCurso> lista = Pesquisar(item);
 
             if (lista != null && lista.Count > 0 && lista[0].Id != item.Id)
-                throw new ExcecaoPersonalizada(Erros.TipoCursoNomeJaExiste);
+                throw new ExcecaoPersonalizada(Erros.TipoTerminoCursoExiste);
 
             DTipoTerminoCurso.Atualizar(item);
         }

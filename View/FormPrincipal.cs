@@ -30,7 +30,8 @@ namespace View
 
         private void pesquisarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            FormPesquisaAluno f = new FormPesquisaAluno();
+            f.ShowDialog();
         }
 
         private void inserirToolStripMenuItem1_Click(object sender, EventArgs e)

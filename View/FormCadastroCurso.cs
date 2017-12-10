@@ -48,9 +48,13 @@ namespace View
             errorProvider1.Clear();
             bool erro = false;
 
-            if (txtNome.Text.Trim() == "" || txtCH.Text.Trim() == "")
+            if (txtNome.Text.Trim() == "")
             {
-                errorProvider1.SetError(txtNome, Erros.TipoCursoNome);
+                errorProvider1.SetError(txtNome, Erros.CursoNome);
+                erro = true;
+            }
+            if (txtCH.Text.Trim() == "" || txtCH.Text.All(Char.IsDigit)){
+                errorProvider1.SetError(txtCH, Erros.CargaHoraria);
                 erro = true;
             }
 

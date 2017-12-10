@@ -72,7 +72,7 @@ namespace View
         {
             if (dgvResultado.SelectedRows.Count != 0)
             {
-                DialogResult resultado = MessageBox.Show("Deseja realmente excluir o tipo de curso selecionado?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                DialogResult resultado = MessageBox.Show("Deseja realmente excluir o tipo de término de curso selecionado?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
 
                 if (resultado == DialogResult.Yes)
                 {

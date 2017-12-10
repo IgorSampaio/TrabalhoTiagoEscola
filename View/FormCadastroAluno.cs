@@ -14,9 +14,22 @@ namespace View
 {
     public partial class FormCadastroAluno : Form
     {
+        int tipo; //0 = Adicionar, 1 = Alterar
+        public bool Salvou = false;
         public FormCadastroAluno()
         {
+            tipo = 0;
             InitializeComponent();
+        }
+
+        public FormCadastroAluno(MAluno item)
+        {
+            tipo = 1;
+            InitializeComponent();
+            txtNome.Text = item.Nome;
+            mtxtCPF.Text = item.CPF;
+            mtxtCPF.Enabled = false;
+            dtpDataNasc.Value = item.Nascimento;
         }
 
         private void FormCadastroAluno_Load(object sender, EventArgs e)
@@ -26,7 +39,6 @@ namespace View
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(mtxtCPF.Text);
             errorProvider1.Clear();
             bool erro = false;
 
@@ -50,8 +62,17 @@ namespace View
 
                 try
                 {
-                    CAluno.Inserir(aluno);
-                    MessageBox.Show("Aluno inserido com sucesso!");
+                    if(tipo == 0)
+                    {
+                        CAluno.Inserir(aluno);
+                        MessageBox.Show("Aluno inserido com sucesso!");
+                    }
+                    else
+                    {
+                        CAluno.Alterar(aluno);
+                        MessageBox.Show("Aluno alterado com sucesso!");
+                        Salvou = true;
+                    }
                     this.Close();
                 }catch(ExcecaoPersonalizada ex)
                 {
